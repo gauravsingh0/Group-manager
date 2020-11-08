@@ -1,246 +1,229 @@
 RUN_STRINGS = (
-    "Kau pikir mau kemana dirimu?",
-    "Ya? apa? apakah mereka bisa lolos?",
-    "ZZzzZZzz... Hah? Apa? oh, ternyata mereka lagi, jangan dipikirkan.",
-    "Kembali ke sini!",
-    "Tidak begitu cepat...",
-    "Perhatikan kalau ada dinding!",
-    "Jangan tinggalkan aku sendirian dengan mereka!!",
-    "Kamu Lari, Kamu mati.",
-    "Bercanda, saya di mana-mana",
-    "Kamu akan menyesal...",
-    "Coba kamu klik /kickme, menyenangkan lho.",
-    "Ganggu orang lain saja sana, di sini nggak ada yang peduli."
-    "Kamu bisa saja lari, tapi Kamu tidak dapat bersembunyi.",
-    "Itu saja yang Kamu punya?"
-    "Aku di belakangmu...",
-    "Kamu nggak lagi sendirian!",
-    "Kita dapat melakukan ini dengan cara yang mudah, atau dengan cara yang keras.",
-    "Kamu hanya tidak mengerti, kan?",
-    "Ya, Kamu lebih baik lari!",
-    "Tolong, ingatkan seberapa pedulinya aku?",
-    "Aku akan lari lebih cepat jika aku jadi kau.",
-    "Itu pasti adalah droid yang kami mencari.",
-    "Semoga peluangmu selalu beruntung.",
-    "Kata-kata terakhir yang terkenal.",
-    "Dan mereka menghilang selamanya, tidak pernah terlihat lagi."
-    "Oh, lihat dirku! Aku ini keren lho, aku bisa lari dari bot! \n -orang ini",
-    "Ya Ya, tekan aja /kickme.",
-    "Di sini, mengambil ini cincin dan kepala ke Mordor sementara kau di itu.",
-    "Legenda berkata, mereka masih lari sampai sekarang...",
-    "Tidak seperti Harry Potter, orang tuamu tidak bisa melindungimu dariku.",
-    "Ketakutan mengarah pada kemarahan. Kemarahan menyebabkan kebencian. Benci menyebabkan penderitaan. Jika Kamu terus berlari dalam ketakutan, Kamu mungkin "
-    "menjadi penerus Vader.",
-    "Setelah aku hitung-hitung, aku telah memutuskan bahwa ketertarikanku pada kejahatanmu adalah 0.",
-    "Legenda berkata, mereka masih lari sampai sekarang.",
-    "Lanjutkan, kami nggak yakin butuh dirimu di sini.",
-    "Kamu pasti seorang penyi-. Tunggu. Kamu bukan Harry, lanjutkan.",
-    "JANGAN BERLARI DI LORONG!",
-    "Hasta la vista, baby.",
-    "Siapa yang melepaskan Anjingnya?",
-    "Lucu ya, karena tidak ada orang yang peduli di sini."
-    "Ah, sayang sekali. Padahal saya suka yang itu.",
-    "Terus terang, sayangku, aku tidak peduli.",
-    "Milkshakeku memancing semua anak laki-laki menuju ke halaman... Jadi lari yang lebih cepat!",
-    "Kamu tidak bisa MENERIMA KENYATAAN!",
-    "Di suatu masa lalu, di sebuah galaksi yang sangat jauh... Mungkin saja seseorang ada yang peduli itu. Tapi tidak lagi sekarang. ",
-    "Hei, lihat mereka! Mereka kabur dari banhammer tak terelakkan... Lucunya. ",
-    "Han menembak terlebih dahulu. Begitu juga aku.",
-    "Kamu mengejar apa, seekor kelinci putih?",
-    "Dokter kemungkinan akan mengatakan...... LARI! ",
+    "💔 මල්ලියෝ!! ම්ං අර දෙන්නෙක්ට ආදරේ කරේ නෑනේ සුදු මල්ලියෝ!! 💔",
+    "❤ ආදලෙයි 150GB ක්!! ❤",
+    "ඕයි...! පෙට්ටිය කැඩුවනම් දැන් ලමය බාරගනින්!!",
+    "තමුසෙ පිස්සෙක්නෙ ඕයි!",
+    "මොනාද හුත්තෝ බලන්නේ...??",
+    "කවුරුන් කෙසේ කීවද ඵරුස වචන භාවිතය ඔබේ අරක පණ නැති කරවයි!!",
+    "හායි!! කෝමද පැටියෝ ❣❣",
+    "මැරිලත් පැය හතරක් ආදරෙයි.. අම්මපා",
+    "ටෞකන්ඩ මූ යකෝ!!",
+    "ඔයා අදත් මට අර යෝගට් පානය දෙනවද...?",
+    "චූ කරල නිදාගනින් අයියේ...",
+    "ඔයා හරි සෝයි අනේ.. සෝ කියුට්... 😋",
+    "අපි දෙන්න පැනල යමු.. හාද?? . ",
+    "පල යන්න වේසාවෝ!!",
+    "💔 මල්ලියෝ!! ම්ං අර දෙන්නෙක්ට ආදරේ කරේ නෑනේ සුදු මල්ලියෝ!! 💔",
+    "අඩ්ඩේහ්..! මේ මොකද කරන්නේ??",
+    "පොඩිකාලෙ බිව්වෙ පොල්කිරිද මල්ලී 🤑",
+    "සීනි කන්න ආපු කූඹියො නෙමෙයි සීනි බෝතලේ ඇරපු ඔයයි වැරදි..",
+    "කවුරු කොහොම් කිව්වත් \nකොත්තු කෑවොත් බඩ යන එක යනවමයි!",
+    "ආදරෙයි.. මැණික ❤❤",
+    "❤ ආදලෙයි 250GB ක්!! ❤",
+    "හදුන්වාදෙන වැඩි දිගකින් යුත් fens.. \nභාවිත කර බලා වෙනස හඳුනාගන්න!",
+    "ඔයාට suprise එකක් තියෙයි.. /kickme කියල ගහල බලන්නකෝ 😂",
+    "ට්‍රැක්ටරය පැදවීමට මාගේ ඡායාරූප භාවිත කිරීමෙන් වලකින්න ",
+    "ඔයාට suprise එකක් තියෙයි.. /kickme කියල ගහල බලන්නකෝ 😂",
+    "මූ හුත්තෝ..",
+    "මොන හුයන්නක්ද මේ",
+    "පෝන් එක හිරවෙනවාද?? ගලක්මත තබා හොඳින් තලන්න නිසැක ප්‍රතිඵල",
+    "ටොයිලට් එකේ ඉද්දි හෙඩ්සෙට් එක ගහන් සින්දු අහන්න එපා ඕයි...",
+    "බලු කූඩුව ඇරියෙ මොකාද යකෝ!!",
+    "බය තරහ ඇති කරවයි. තරහ වයිරය උපදවයි. වරිරය පසුතැවීම ඇති කරයි. ඔබ බයෙන් ජීවත්වන තුරු ලංකාවේ බඩු මිල පහත නොයයි",
+    "රට්ටු හිනස්සන්න එපා මල්ලී.",
+    "හදිසි අවස්තාවකදී ගිලන්රථයක් ගෙන්වා ගැනීමට 1990 අමතන්න",
+    "අපේ ගෲප් එකත් එක්ක අදම සෙට් වෙන්න t.me/InfinityJE ❤",
+    "ඔයාට කොච්චර සල්ලි තිබුනත් කොච්චර බලය තිබුනත් කොත්තු කෑවොත් බඩ යන එක නවත්තන්න ඔයාට බෑ 🌮🌮.",
+    "💔 මල්ලියෝ!! ම්ං අර දෙන්නෙක්ට ආදරේ කරේ නෑනේ සුදු මල්ලියෝ!! 💔",
+    "ටෞකන්ඩ මූ යකෝ!!!",
+    "කවුරුන් කෙසේ කීවද ඵරුස වචන භාවිතය ඔබේ අරක පණ නැති කරවයි!",
+    "පොඩිකාලෙ බිව්වෙ පොල්කිරිද මල්ලී 🤑",
+    "කවුරු කොහොම් කිව්වත් \nකොත්තු කෑවොත් බඩ යන එක යනවමයි!",
+    "රට්ටු හිනස්සන්න එපා මල්ලී.",
+    "ආදරෙයි.. මැණික ❤❤",
+    "💔 මල්ලියෝ!! ම්ං අර දෙන්නෙක්ට ආදරේ කරේ නෑනේ සුදු මල්ලියෝ!! 💔",
+    
 )
 
 INSULTS_STRINGS = (
-    "Owww ... Dasar bodoh pangkal kuadrat.",
-    "Jangan minum sambil mengetik",
-    "Aku pikir kamu lebih baik pulang ke rumah, atau ke RSJ sekalian.",
-    "Perintah tidak ditemukan. Seperti isi otakmu.",
-    "Apakah kamu sadar kalau tingkahmu itu membuatmu terlihat bodoh? Tampaknya tidak.",
-    "Harusnya kamu bisa menulis yang lebih baik dari itu.",
-    "Aturan bot nomor 544 bagian 9 mencegahku untuk membalas pesanmu.",
-    "Maaf, kami tidak menjual otak.",
-    "Percayalah kepadaku, Kamu nggak normal.",
-    "Aku yakin otakmu terasa seperti baru, sebab Kamu tidak pernah menggunakannya.",
-    "Jika saya ingin bunuh diri, saya akan menaiki egomu dan melompat ke IQmu.",
-    "Zombie itu makan otak... jadi kau aman. ",
-    "Kamu tidak berevolusi dari kera, mereka berevolusi dari Kamu."
-    "Kembalilah berbicara ke saya ketika jumlah IQmu sudah melebihi usiamu. ",
-    "Saya tidak mengatakan kamu bodoh, Saya hanya mengatakan kamu sial saat berfikir.",
-    "Bahasa apa yang kamu pakai? Karena itu terdengar seperti omong kosong",
-    "Kebodohan bukan sebuah kejahatan jadi kamu dibebaskan.",
-    "Kamu adalah bukti bahwa evolusi bisa terbalik.",
-    "Aku mau tanya berapa umurmu tapi aku tahu kamu tidak akan bisa menghitung sebanyak itu.",
-    "Sebagai makhluk asing, apa pendapatmu tentang ras manusia?",
-    "Otak bukanlah segalanya. Dalam kasusmu, otaknya nggak ada.",
-    "Biasanya orang hidup dan belajar. Kamu hanya sekedar hidup.",
-    "Aku tidak tahu apa yang membuatmu bodoh, tapi itu benar-benar manjur.",
-    "Teruslah berbicara, suatu hari nanti Kamu akan mengatakan sesuatu yang cerdas! (meskipun aku ragu) ",
-    "Kejutkan aku, dengan mengatakan sesuatu yang terdengar cerdas."
-    "IQ mu lebih kecil dari ukuran sepatumu.",
-    "Aduh! Neurotransmitermu sudah rusak. ",
-    "Apakah Kamu gila, dasar bodoh.",
-    "Setiap orang memiliki hak untuk menjadi bodoh tapi Kamu malah menyalagunakannya.",
-    "Aku menyesal kalau aku menyakiti perasaanmu ketika aku memanggilmu bodoh. Kupikir dirimu sudah tahu itu. ",
-    "Kamu harus mencoba mencicipi sianida.",
-    "Enzimmu harusnya digunakan untuk mencerna racun tikus.",
-    "Kamu harus mencoba tidur selamanya.",
-    "Ambil pistol dan tembak dirimu sendiri.",
-    "Kamu bisa membuat rekor dunia dengan melompat dari pesawat tanpa parasut.",
-    "Berhenti berbicara omong kosong dan lompatlah di depan kereta peluru yang sedang jalan.",
-    "Cobalah mandi dengan asam klorida daripada air.",
-    "Coba ini: jika Kamu menahan nafas air selama satu jam, Kamu bisa menahannya selamanya.",
-    "Go Green! Berhentilah menghirup oksigen. ",
-    "Tuhan sedang mencarimu. Kamu harus mati untuk bertemu diriNya. ",
-    "memberikanmu 100%. Sekarang, pergi sumbangkan darah. ",
-    "Coba lompat dari gedung dengan ratusan lantai, tetapi Kamu hanya bisa melakukannya sekali.",
-    "Kamu harusnya menyumbangkan otakmu karena kulihat kalau kamu tidak pernah menggunakannya.",
-    "Relawan untuk target di tempat latihan menembak.",
-    "Tembakan di kepala itu menyenangkan. Kamu coba sana. ",
-    "Kamu harus coba berenang bersama hiu putih.",
-    "Kamu cat dirimu sendiri dengan warna merah dan ikutlah berlari di maraton banteng.",
-    "Kamu bisa tetap di bawah air selama sisa hidupmu tanpa kembali.",
-    "Bagaimana kalau kamu berhenti bernapas selama 1 hari? Itu akan luar biasa. ",
-    "Cobalah memprovokasi harimau saat kalian berdua berada di kandang.",
-    "Sudahkah Kamu mencoba menembak diri sendiri sejauh 100 m menggunakan meriam.",
-    "Kamu harus mencoba memegang TNT di mulutmu dan menyalakannya.",
-    "Coba bermain lempar tangkap dengan RDX, itu menyenangkan loh.",
-    "Aku dengar phogine itu beracun tapi kurasa kamu tidak keberatan menghirupnya untuk bersenang-senang.",
-    "Luncurkan dirimu ke luar angkasa sambil melupakan oksigen di Bumi.",
-    "Kamu harus mencoba bermain ular dan tangga, dengan ular sungguhan dan tanpa tangga.",
-    "Menari telanjang di sepasang kabel HT.",
-    "Kawah berapi adalah kolam renang terbaik untukmu.",
-    "Kamu harus mencoba mandi air panas di gunung berapi.",
-    "Cobalah menghabiskan satu hari di peti mati dan itu akan menjadi milikmu selamanya.",
-    "Pukul Uranium dengan neutron yang bergerak lambat di hadapanmu. Ini akan menjadi pengalaman berharga. ",
-    "Kamu bisa menjadi orang pertama yang menginjakkan kaki di matahari. Selamat mencoba. ",
+    "Owww ... Such a stupid idiot.",
+    "Don't drink and type.",
+    "I think you should go home or better a mental asylum.",
+    "Command not found. Just like your brain.",
+    "Do you realize you are making a fool of yourself? Apparently not.",
+    "You can type better than that.",
+    "Bot rule 544 section 9 prevents me from replying to stupid humans like you.",
+    "Sorry, we do not sell brains.",
+    "Believe me you are not normal.",
+    "I bet your brain feels as good as new, seeing that you never use it.",
+    "If I wanted to kill myself I'd climb your ego and jump to your IQ.",
+    "Zombies eat brains... you're safe.",
+    "You didn't evolve from apes, they evolved from you.",
+    "Come back and talk to me when your I.Q. exceeds your age.",
+    "I'm not saying you're stupid, I'm just saying you've got bad luck when it comes to thinking.",
+    "What language are you speaking? Cause it sounds like bullshit.",
+    "Stupidity is not a crime so you are free to go.",
+    "You are proof that evolution CAN go in reverse.",
+    "I would ask you how old you are but I know you can't count that high.",
+    "As an outsider, what do you think of the human race?",
+    "Brains aren't everything. In your case they're nothing.",
+    "Ordinarily people live and learn. You just live.",
+    "I don't know what makes you so stupid, but it really works.",
+    "Keep talking, someday you'll say something intelligent! (I doubt it though)",
+    "Shock me, say something intelligent.",
+    "Your IQ's lower than your shoe size.",
+    "Alas! Your neurotransmitters are no more working.",
+    "Are you crazy you fool.",
+    "Everyone has the right to be stupid but you are abusing the privilege.",
+    "I'm sorry I hurt your feelings when I called you stupid. I thought you already knew that.",
+    "You should try tasting cyanide.",
+    "Your enzymes are meant to digest rat poison.",
+    "You should try sleeping forever.",
+    "Pick up a gun and shoot yourself.",
+    "You could make a world record by jumping from a plane without parachute.",
+    "Stop talking BS and jump in front of a running bullet train.",
+    "Try bathing with Hydrochloric Acid instead of water.",
+    "Try this: if you hold your breath underwater for an hour, you can then hold it forever.",
+    "Go Green! Stop inhaling Oxygen.",
+    "God was searching for you. You should leave to meet him.",
+    "give your 100%. Now, go donate blood.",
+    "Try jumping from a hundred story building but you can do it only once.",
+    "You should donate your brain seeing that you never used it.",
+    "Volunteer for target in an firing range.",
+    "Head shots are fun. Get yourself one.",
+    "You should try swimming with great white sharks.",
+    "You should paint yourself red and run in a bull marathon.",
+    "You can stay underwater for the rest of your life without coming back up.",
+    "How about you stop breathing for like 1 day? That'll be great.",
+    "Try provoking a tiger while you both are in a cage.",
+    "Have you tried shooting yourself as high as 100m using a canon.",
+    "You should try holding TNT in your mouth and igniting it.",
+    "Try playing catch and throw with RDX its fun.",
+    "I heard phogine is poisonous but i guess you wont mind inhaling it for fun.",
+    "Launch yourself into outer space while forgetting oxygen on Earth.",
+    "You should try playing snake and ladders, with real snakes and no ladders.",
+    "Dance naked on a couple of HT wires.",
+    "True Volcano is the best swimming pool for you.",
+    "You should try hot bath in a volcano.",
+    "Try to spend one day in a coffin and it will be yours forever.",
+    "Hit Uranium with a slow moving neutron in your presence. It will be a worthwhile experience.",
+    "You can be the first person to step on sun. Have a try.",
 )
 
 SLAP_TEMPLATES = (
-    "{user1} {hits} {user2} dengan {item}.",
-    "{user1} {hits} {user2} di wajahnya dengan {item}.",
-    "{user1} {hits} {user2} pelan-pelan dengan {item}.",
-    "{user1} {throws} sebuah {item} pada {user2}.",
-    "{user1} mengambil {item} dan {throws} di wajah {user2}.",
-    "{user1} meluncurkan {item} langsung ke arah {user2}.",
-    "{user1} mulai menampar {user2} dengan {item}.",
-    "{user1} menahan {user2} dan berulangkali {hits} dengan {item}.",
-    "{user1} meraih {item} dan {hits} {user2} dengan itu.",
-    "{user1} mengikat {user2} ke kursi dan {throws} sebuah {item} pada mereka.",
-    "{user1} memberi pertolongan untuk membantu {user2} belajar berenang di lava."
+    "{user1} {hits} {user2} with a {item}.",
+    "{user1} {hits} {user2} in the face with a {item}.",
+    "{user1} {hits} {user2} around a bit with a {item}.",
+    "{user1} {throws} a {item} at {user2}.",
+    "{user1} grabs a {item} and {throws} it at {user2}'s face.",
+    "{user1} launches a {item} in {user2}'s general direction.",
+    "{user1} starts slapping {user2} silly with a {item}.",
+    "{user1} pins {user2} down and repeatedly {hits} them with a {item}.",
+    "{user1} grabs up a {item} and {hits} {user2} with it.",
+    "{user1} ties {user2} to a chair and {throws} a {item} at them.",
+    "{user1} gave a friendly push to help {user2} learn to swim in lava."
 )
 
 ITEMS = (
-    "wajan besi cor",
-    "trout besar",
-    "Tongkat bisbol",
-    "tongkat kriket",
-    "tongkat kayu",
-    "paku",
+    "cast iron skillet",
+    "large trout",
+    "baseball bat",
+    "cricket bat",
+    "wooden cane",
+    "nail",
     "printer",
-    "sekop",
-    "Monitor CRT",
-    "buku teks fisika",
-    "pemanggang roti",
-    "lukisan Richard Stallman",
-    "televisi",
-    "truk lima ton",
-    "Gulungan lakban",
-    "buku",
+    "shovel",
+    "CRT monitor",
+    "physics textbook",
+    "toaster",
+    "portrait of Richard Stallman",
+    "television",
+    "five ton truck",
+    "roll of duct tape",
+    "book",
     "laptop",
-    "televisi bekas",
-    "Karung batu",
-    "trout berwarna",
-    "ayam karet",
-    "Kelelawar berduri",
-    "Pemadam Api",
-    "beton",
-    "sebongkah tanah",
-    "sarang lebah",
-    "Sepotong daging busuk",
-    "beruang",
-    "sejumlah batu bata",
+    "old television",
+    "sack of rocks",
+    "rainbow trout",
+    "rubber chicken",
+    "spiked bat",
+    "fire extinguisher",
+    "heavy rock",
+    "chunk of dirt",
+    "beehive",
+    "piece of rotten meat",
+    "bear",
+    "ton of bricks",
 )
 
 THROW = (
-    "melempar",
-    "melemparkan",
-    "membuang",
-    "melontarkan",
+    "throws",
+    "flings",
+    "chucks",
+    "hurls",
 )
 
 HIT = (
-    "memukul",
-    "memukul",
-    "menampar",
-    "menjatuhkan",
-    "memukul",
+    "hits",
+    "whacks",
+    "slaps",
+    "smacks",
+    "bashes",
 )
 
 MARKDOWN_HELP = """
-Markdown adalah alat pemformatan yang luar biasa yang didukung oleh telegram. {} memiliki beberapa peningkatan, untuk memastikan bahwa \
-pesan yang disimpan diuraikan dengan benar, dan untuk memungkinkan Kamu membuat tombol.
+Markdown is a very powerful formatting tool supported by telegram. {} has some enhancements, to make sure that \
+saved messages are correctly parsed, and to allow you to create buttons.
 
-- <code>_italic_</code>: membungkus teks dengan '_' akan menghasilkan teks yang miring
-- <code>*bold*</code>: membungkus teks dengan '*' akan menghasilkan teks tebal
-- <code>`code`</code>: membungkus teks dengan '`' akan menghasilkan teks monospace, juga dikenal sebagai 'code'
-- <code>[sometext](someURL)</code>: ini akan membuat tautan - pesannya hanya akan menunjukkan <code> tulisan</code>, \
-dan mengetuknya akan membuka halaman di <code>someURL</code>.
-CONTOH: <code>[Tombol](buttonurl:example.com)</code>
+- <code>_italic_</code>: wrapping text with '_' will produce italic text
+- <code>*bold*</code>: wrapping text with '*' will produce bold text
+- <code>`code`</code>: wrapping text with '`' will produce monospaced text, also known as 'code'
+- <code>[sometext](someURL)</code>: this will create a link - the message will just show <code>sometext</code>, \
+and tapping on it will open the page at <code>someURL</code>.
+EG: <code>[test](example.com)</code>
 
-- <code>[buttontext](buttonurl:someURL)</code>: ini adalah penyempurnaan khusus untuk memungkinkan pengguna untuk memiliki \
-tombol telegram dalam markdown mereka. <code>buttontext</code> akan menjadi apa yang ditampilkan pada tombol, dan <code>someurl</code> \
-akan menjadi url yang dibuka.
-CONTOH: <code>[Tombol](buttonurl:example.com)</code>
+- <code>[buttontext](buttonurl:someURL)</code>: this is a special enhancement to allow users to have telegram \
+buttons in their markdown. <code>buttontext</code> will be what is displayed on the button, and <code>someurl</code> \
+will be the url which is opened.
+EG: <code>[This is a button](buttonurl:example.com)</code>
 
-Jika Kamu ingin beberapa tombol pada baris yang sama, gunakan: same, seperti:
+If you want multiple buttons on the same line, use :same, as such:
 <code>[one](buttonurl://example.com)
 [two](buttonurl://google.com:same)</code>
-Ini akan membuat dua tombol pada satu baris, bukan satu tombol per baris.
+This will create two buttons on a single line, instead of one button per line.
 """
 
-IndonesianStrings = {
-    "send-start": """Hi {}, nama saya {}! Jika Kamu memiliki pertanyaan tentang cara menggunakan saya, baca /help.
+EnglishStrings = {
+    "send-start": """Hi {}, my name {}! If you have any questions on how to use me, read /help - and then head to @YanaBotGroup.
 
-Saya adalah bot manajer grup yang dikelola oleh [orang ini](tg://user?Id={654839744}). Saya adalah [Marie](https://github.com/PaulSonOfLars/tgbot) fork.
-Saya dibangun di python3, menggunakan \
-python-telegram-bot library, dan saya sepenuhnya opensource - Kamu dapat menemukan apa yang membuat saya\
-[disini](https://github.com/peaktogoo/HarukaAya))!
+I'm a group manager bot maintained by [this person](tg://user?id={654839744}). I'm a [Marie](https://github.com/PaulSonOfLars/tgbot) fork.
+I'm built in python3, using the \
+python-telegram-bot library, and am fully opensource - you can find what makes me tick\
+[here](https://github.com/peaktogoo/HarukaAya))!
 
-Jangan ragu untuk mengirimkan pull request di github\
-atau permintaan fitur jika kamu punya :)
+Feel free to submit pull requests on github, or to contact my support group, @EchelonTeam, with any bugs, questions \
+or feature requests you might have :)
 
-Jika Kamu menikmati menggunakan saya dan / atau ingin membantu saya bertahan di alam liar, tekan /donate untuk membantu upgrade VPS saya!
+If you enjoying using me and/or would like to help me survive in the wild, hit /donate to help fund/upgrade my VPS!
 """,
 
-    "send-help": """Hai disana! Nama saya *{}*.
-Saya bot manajemen grup modular dengan beberapa tambahan fitur menyenangkan! Lihatlah beberapa fitur berikut untuk mendapatkan petunjuk tentang hal yang bisa saya bantu.
+    "send-help": """Hey there! My name is *{}*.
+I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of the things I can help you with.
 
-Perintah tersedia:
- - /start: Perintah keren untuk memeriksa apakah bot masih hidup atau tidak
- - /help: Bantuan.
- - /help <nama modul>: Bantuan tentang modul.
- - /donate: informasi tentang cara menyumbang!
- - /lang: mengubah bahasa bot
+Main commands available:
+ - /start: Cool command to check if the bot is alive or not
+ - /help: PM's you this message.
+ - /help <module name>: PM's you info about that module.
+ - /donate: information about how to donate!
+ - /lang: Change bot language
  - /settings:
-   -di PM: akan mengirimkan setelan untuk semua modul yang didukung.
-   -dalam grup: akan mengarahkan Kamu ke pm, dengan semua pengaturan chat.
-
-{}
+   - in PM: will send you your settings for all supported modules.
+   - in a group: will redirect you to pm, with all that chat's settings.
+   {}
    """,
 
-    "send-group-settings": """Hai disana! Ada beberapa pengaturan untuk *{}* - pergi ke depan dan pilih apa
-yang membuatmu tertarik.""",
-
-
-    "Disabled connections to this chat for users": "Disabled connections to this chat for users",
-    "Enabled connections to this chat for users": "Enabled connections to this chat for users",
-    "Please enter on/yes/off/no in group!": "Please enter on/yes/off/no in group!",
-    "Successfully connected to *{}*": "Successfully connected to *{}*",
-    "Connection failed!": "Connection failed!",
-    "Connections to this chat not allowed!": "Connections to this chat not allowed!",
-    "Write chat ID to connect!": "Write chat ID to connect!",
-    "Usage limited to PMs only!": "Usage limited to PMs only!",
-
+    "send-group-settings": """Hi there! There are quite a few settings for *{}* - go ahead and pick what
+you're interested in.""",
 
 #Misc
 "RUNS-K": RUN_STRINGS,
@@ -258,32 +241,32 @@ yang membuatmu tertarik.""",
         "The original sender, {}, has an ID of `{}`.\nThe forwarder, {}, has an ID of `{}`.",
     "{}'s id is `{}`.": "{}'s id is `{}`.",
     "Your id is `{}`.": "Your id is `{}`.",
-    "This group's id is `{}`.": "This group's id is `{}`.",
+    "This group's id is `{}`.": "මෙම කණ්ඩායමේ හැඳුනුම්පත `{}`.",
 
-    "I can't extract a user from this.": "I can't extract a user from this.",
+    "I can't extract a user from this.": "මට මෙයින් පරිශීලකයෙකු උපුටා ගත නොහැක.",
     "<b>User info</b>:": "<b>User info</b>:",
     "\nFirst Name: {}": "\nFirst Name: {}",
     "\nLast Name: {}": "\nLast Name: {}",
     "\nUsername: @{}": "\nUsername: @{}",
     "\nPermanent user link: {}": "\nPermanent user link: {}",
     "\n\nThis person is my owner - I would never do anything against them!":
-        "\n\nThis person is my owner - I would never do anything against them!",
+        "\n\nමේ මගේ අයිතිකාරයා - මම එයාට විරුද්ධව මොනවත් කරන්නෙ නෑ!",
     "\nThis person is one of my sudo users! Nearly as powerful as my owner - so watch it.":
-        "\nThis person is one of my sudo users! Nearly as powerful as my owner - so watch it.",
+        "\nමෙම පුද්ගලයා මගේ සුඩෝ භාවිතා කරන්නෙකි! මගේ හිමිකරු තරම් බලවත්",
     "\nThis person is one of my support users! Not quite a sudo user, but can still gban you off the map.":
-        "\nThis person is one of my support users! Not quite a sudo user, but can still gban you off the map.",
+        "\nමෙම පුද්ගලයා මගේ සහායක පරිශීලකයෙකි! තරමක් සූඩෝ භාවිතා කරන්නෙකු නොවේ, නමුත් ඔබට සිතියමෙන් ඉවත් කළ හැකිය.",
     "\nThis person has been whitelisted! That means I'm not allowed to ban/kick them.":
-        "\nThis person has been whitelisted! That means I'm not allowed to ban/kick them.",
+        "\nමෙම පුද්ගලයා සුදු ලැයිස්තු ගත කර ඇත! ඒ කියන්නේ මට ඔවුන්ව තහනම් කරන්න / පයින් ගහන්න අවසර නැහැ.",
 
-    "Its always banhammer time for me!": "Its always banhammer time for me!",
+    "Its always banhammer time for me!": "එහි සෑම විටම මට කාලයයි!",
 
     "It's {} in {}": "It's {} in {}",
 
-    "Please reply to a sticker to get its ID.": "Please reply to a sticker to get its ID.",
+    "Please reply to a sticker to get its ID.": "එහි හැඳුනුම්පත ලබා ගැනීමට කරුණාකර ස්ටිකරයකට පිළිතුරු දෙන්න.",
     "Please reply to a sticker for me to upload its PNG.": "Please reply to a sticker for me to upload its PNG.",
 
-    "Write a location to check the weather.": "Write a location to check the weather.",
-    "I will keep an eye on both happy and sad times!": "I will keep an eye on both happy and sad times!",
+    "Write a location to check the weather.": "කාලගුණය පරීක්ෂා කිරීම සඳහා ස්ථානයක් ලියන්න.",
+    "I will keep an eye on both happy and sad times!": "ප්‍රීතිමත් හා දුක්බර වේලාවන් දෙස මම විමසිල්ලෙන් සිටිමි!",
     "Today in {} is being {}, around {}°C.\n": "Today in {} is being {}, around {}°C.\n",
     "Sorry, location not found.": "Sorry, location not found.",
 
@@ -298,19 +281,19 @@ yang membuatmu tertarik.""",
 [Botón2](buttonurl://google.com:same)""",
 
 #Admin
-"How am I meant to promote someone that's already an admin?": "How am I meant to promote someone that's already an admin?",
-"I can't promote myself! Get an admin to do it for me.": "I can't promote myself! Get an admin to do it for me.",
+"How am I meant to promote someone that's already an admin?": "දැනටමත් පරිපාලකයෙකු වන අයෙකු ප්‍රවර්ධනය කිරීමට මා අදහස් කරන්නේ කෙසේද?",
+"I can't promote myself! Get an admin to do it for me.": "මට මාවම ප්‍රවර්ධනය කළ නොහැක! මා වෙනුවෙන් එය කිරීමට පරිපාලකයෙකු ලබා ගන්න.",
 "Successfully promoted in *{}*!": "Successfully promoted in *{}*!",
 
-"This person CREATED the chat, how would I demote them?": "This person CREATED the chat, how would I demote them?",
+"This person CREATED the chat, how would I demote them?": "මෙම පුද්ගලයා චැට් නිර්මාණය කළේය, මම ඔවුන්ව පහත් කරන්නේ කෙසේද?",
 "Can't demote what wasn't promoted!": "Can't demote what wasn't promoted!",
-"I can't demote myself!": "I can't demote myself!",
-"Successfully demoted in *{}*!": "Successfully demoted in *{}*!",
+"I can't demote myself!": "මට මාවම පහත් කරන්න බැහැ!",
+"Successfully demoted in *{}*!": "සාර්ථකව පහත හෙලනු ලැබීය *{}*!",
 "Could not demote. I might not be admin, or the admin status was appointed by another user, so I can't act upon them!": 
-"Could not demote. I might not be admin, or the admin status was appointed by another user, so I can't act upon them!",
+"පහත් කිරීමට නොහැකි විය. මම පරිපාලක නොවිය හැකිය, නැතහොත් පරිපාලක තත්ත්වය වෙනත් පරිශීලකයෙකු විසින් පත් කරන ලදි, එබැවින් මට ඔවුන් මත ක්‍රියා කළ නොහැක!",
 
-"I don't have access to the invite link, try changing my permissions!": "I don't have access to the invite link, try changing my permissions!",
-"I can only give you invite links for supergroups and channels, sorry!": "I can only give you invite links for supergroups and channels, sorry!",
+"I don't have access to the invite link, try changing my permissions!": "මට ආරාධනා සබැඳියට ප්‍රවේශය නැත, මගේ අවසර වෙනස් කිරීමට උත්සාහ කරන්න!",
+"I can only give you invite links for supergroups and channels, sorry!": "මට ඔබට ලබා දිය හැක්කේ සුපිරි කණ්ඩායම් සහ නාලිකා සඳහා ආරාධනා සබැඳි පමණි, සමාවෙන්න!",
 
 "Admins in": "Admins in",
 "this chat": "this chat",
@@ -324,58 +307,58 @@ yang membuatmu tertarik.""",
 
 #Antiflood
 "I like to leave the flooding to natural disasters. But you, you were just a disappointment. Get out.":
-     "I like to leave the flooding to natural disasters. But you, you were just a disappointment. Get out.",
+     "කරුමක්කාරයන්ට ස්වාභාවිකව කෙලවෙන්නවට මම සාමන්‍යයෙන් කැමති. හැබැයි තෝ, තෝ මාර කරුමයක් උනා. පල යන්න.",
 "I can't kick people here, give me permissions first! Until then, I'll disable antiflood.":
-    "I can't kick people here, give me permissions first! Until then, I'll disable antiflood.",
-"Antiflood has been disabled.": "Antiflood has been disabled.",
+    "මට මෙතන මිනිස්සුන්ට පයින් ගහන්න බැහැ, මුලින්ම මට අවසර දෙන්න! එතෙක් මම ඇන්ටිෆ්ලූඩ් අක්‍රීය කරමි.",
+"Antiflood has been disabled.": "ඇන්ටිෆ්ලූඩ් අක්‍රීය කර ඇත.",
 "Antiflood has to be either 0 (disabled), or a number bigger than 3 (enabled)!":
-    "Antiflood has to be either 0 (disabled), or a number bigger than 3 (enabled)!",
-"Antiflood has been updated and set to {}": "Antiflood has been updated and set to {}",
+    "ඇන්ටිෆ්ලූඩ් 0 (අක්‍රීය) හෝ 3 ට වඩා විශාල සංඛ්‍යාවක් (සක්‍රීය) විය යුතුය!",
+"Antiflood has been updated and set to {}": "ඇන්ටිෆ්ලූඩ් යාවත්කාලීන කර සකසා ඇත {}",
 "Unrecognised argument - please use a number, 'off', or 'no'.":
     "Unrecognised argument - please use a number, 'off', or 'no'.",
 "I'm not currently enforcing flood control!": "I'm not currently enforcing flood control!",
 "I'm currently banning users if they send more than {} consecutive messages.":
-     "I'm currently banning users if they send more than {} consecutive messages.",
+     "පරිශීලකයින් අඛණ්ඩ පණිවිඩ {} ට වඩා එවන්නේ නම් ඔවුන් දැනට තහනම් කර ඇත.",
 
 #Antispam
 "I've enabled antispam security in this group. This will help protect you from spammers, unsavoury characters, and the biggest trolls.":
- "I've enabled antispam security in this group. This will help protect you from spammers, unsavoury characters, and the biggest trolls.",
+ "මම මෙම කණ්ඩායම තුළ ඇන්ටිස්පෑම් ආරක්ෂාව සක්‍රීය කර ඇත. මෙය අයාචිත තැපැල්, අනවශ්‍ය චරිත සහ විශාලතම ට්‍රෝලර් වලින් ඔබව ආරක්ෂා කිරීමට උපකාරී වේ.",
 
 "I've disabled antispam security in this group. GBans wont affect your users anymore. You'll be less protected from any trolls and spammers though!":
-    "I've disabled antispam security in this group. GBans wont affect your users anymore. You'll be less protected from any trolls and spammers though!",
+    "මම මෙම කණ්ඩායමේ ඇන්ටිස්පෑම් ආරක්ෂාව අක්‍රීය කර ඇත. GBans තවදුරටත් ඔබේ පරිශීලකයින්ට බලපාන්නේ නැත. ඕනෑම ට්‍රෝලර් සහ ස්පෑම්කරුවන්ගෙන් ඔබට අඩු ආරක්ෂාවක් ලැබෙනු ඇත!",
 
 "Give me some arguments to choose a setting! on/off, yes/no!\n\nYour current setting is: {}\nWhen True, any gbans that happen will also happen in your group. When False, they won't, leaving you at the possible mercy of spammers.":
     "Give me some arguments to choose a setting! on/off, yes/no!\n\nYour current setting is: {}\nWhen True, any gbans that happen will also happen in your group. When False, they won't, leaving you at the possible mercy of spammers.",
 
-"Globally banned: <b>{}</b>": "Globally banned: <b>{}</b>",
-"\nGlobally muted: <b>{}</b>": "\nGlobally muted: <b>{}</b>",
+"Globally banned: <b>{}</b>": "ගෝලීය වශයෙන් තහනම්: <b>{}</b>",
+"\nGlobally muted: <b>{}</b>": "\nගෝලීයව නිශ්ශබ්ද කර ඇත: <b>{}</b>",
 "\nReason: {}": "\nReason: {}",
 
 #Bans
     "I really wish I could ban admins...": "I really wish I could ban admins...",
-    "I'm not gonna BAN myself, are you crazy?": "I'm not gonna BAN myself, are you crazy?",
+    "I'm not gonna BAN myself, are you crazy?": "මම මාවම තහනම් කරගන් නෑ.. තොට පිස්සුද??",
     "Banned!": "Banned!",
-    "Well damn, I can't ban that user.": "Well damn, I can't ban that user.",
+    "Well damn, I can't ban that user.": "ලබ්බ..මට එම පරිශීලකයා තහනම් කළ නොහැක.",
     "You haven't specified a time to ban this user for!":
-        "You haven't specified a time to ban this user for!",
-    "Banned! User will be banned for {}.": "Banned! User will be banned for {}.",
+        "මෙම පරිශීලකයා තහනම් කිරීමට ඔබ කාලයක් නියම කර නැත!",
+    "Banned! User will be banned for {}.": "කෙලියා... ඌට තව {} කාලෙකට මේ ගෲප තහනම්!!!.",
 
 #Blacklist
-    "<b>Current blacklisted words in {}:</b>\n": "<b>Current blacklisted words in {}:</b>\n",
-    "There are no blacklisted messages in <b>{}</b>!": "There are no blacklisted messages in <b>{}</b>!",
+    "<b>Current blacklisted words in {}:</b>\n": "<b>දැනට ලැයිස්තුගත කර ඇති වචන {}:</b>\n",
+    "There are no blacklisted messages in <b>{}</b>!": "<b>{}</b>තුළ ලැයිස්තුගත කර ඇති පණිවිඩ නොමැත!",
     "Added <code>{}</code> to the blacklist in <b>{}</b>!":
         "Added <code>{}</code> to the blacklist in <b>{}</b>!",
     "Tell me which words you would like to add to the blacklist.":
-        "Tell me which words you would like to add to the blacklist.",
+        "අසාදු ලේඛනයට ඔබ එකතු කිරීමට කැමති වචන මොනවාදැයි මට කියන්න.",
     "Removed <code>{}</code> from the blacklist in <b>{}</b>!":
         "Removed <code>{}</code> from the blacklist in <b>{}</b>!",
-    "This isn't a blacklisted trigger...!": "This isn't a blacklisted trigger...!",
+    "This isn't a blacklisted trigger...!": "මෙය අසාදු ලේඛණගත කළ ප්‍රේරකයක් නොවේ ...!",
     "None of these triggers exist, so they weren't removed.":
-        "None of these triggers exist, so they weren't removed.",
+        "මෙම ප්‍රේරක කිසිවක් නොපවතින බැවින් ඒවා ඉවත් නොකෙරුණි.",
     "Removed <code>{}</code> triggers from the blacklist in <b>{}</b>! {} did not exist, so were not removed.":
         "Removed <code>{}</code> triggers from the blacklist in <b>{}</b>! {} did not exist, so were not removed.",
     "Tell me which words you would like to remove from the blacklist.":
-        "Tell me which words you would like to remove from the blacklist.",
+        "අසාදු ලේඛනයෙන් ඉවත් කිරීමට ඔබ කැමති වචන මොනවාදැයි මට කියන්න.",
 
     #Filters
     "*Filters in {}:*\n": "*Filters in {}:*\n",
@@ -383,18 +366,18 @@ yang membuatmu tertarik.""",
     "*local filters:*\n": "*local filters:*\n",
     "No filters in {}!": "No filters in {}!",
     "There is no note message - You can't JUST have buttons, you need a message to go with it!":
-        "There is no note message - You can't JUST have buttons, you need a message to go with it!",
-    "You didn't specify what to reply with!": "You didn't specify what to reply with!",
-    "Handler '{}' added in *{}*!": "Handler '{}' added in *{}*!",
-    "No filters are active in {}!": "No filters are active in {}!",
-    "Yep, I'll stop replying to that in *{}*." : "Yep, I'll stop replying to that in *{}*.",
+        "සටහන් පණිවිඩයක් නොමැත - ඔබට බොත්තම් තිබිය නොහැක, එය සමඟ යාමට ඔබට පණිවිඩයක් අවශ්‍යය!",
+    "You didn't specify what to reply with!": "රිප්ලයි යවන්න ඕන එක ඔයා කිව්වෙ නෑ සුදූ",
+    "Handler '{}' added in *{}*!": "වචනෙ '{}' add කරා *{}*!",
+    "No filters are active in {}!": "මොනවත් filters active නෑ {}!",
+    "Yep, I'll stop replying to that in *{}*." : "ඔයේ! මම ඒකට රිප්ලයි නොකර ඉන්නම් *{}*.",
     "That's not a current filter - run /filters for all active filters.":
         "That's not a current filter - run /filters for all active filters.",
 
     #Disable
     "Disabled the use of `{}` in *{}*": "Disabled the use of `{}` in *{}*",
-    "That command can't be disabled": "That command can't be disabled",
-    "What should I disable?": "What should I disable?",
+    "That command can't be disabled": "එම විධානය අක්‍රිය කළ නොහැක",
+    "What should I disable?": "මා අබල කළ යුත්තේ කුමක්ද?",
 
     "Enabled the use of `{}` in *{}*": "Enabled the use of `{}` in *{}*",
     "Is that even disabled?": "Is that even disabled?",
@@ -412,17 +395,17 @@ yang membuatmu tertarik.""",
     "What are you trying to lock...? Try /locktypes for the list of lockables":
         "What are you trying to lock...? Try /locktypes for the list of lockables",
     "I'm not an administrator, or haven't got delete rights.":
-        "I'm not an administrator, or haven't got delete rights.",
-    "Unlocked {} for everyone!": "Unlocked {} for everyone!",
+        "මම පරිපාලකයෙක් නොවේ, නැතහොත් මකාදැමීමේ අයිතියක් නොමැත.",
+    "Unlocked {} for everyone!": "{} හැමෝටම Unlock කරා!",
     "What are you trying to unlock...? Try /locktypes for the list of lockables":
-        "What are you trying to unlock...? Try /locktypes for the list of lockables",
-    "What are you trying to unlock...?": "What are you trying to unlock...?",
+        "මොනවද unlock කරන්න හොයන්නෙ...? Try /locktypes for the list of lockables",
+    "What are you trying to unlock...?": "මොනවද unlock කරන්න හොයන්නෙ...?",
     "I see a bot, and I've been told to stop them joining... but I'm not admin!":
-        "I see a bot, and I've been told to stop them joining... but I'm not admin!",
+        "මට බොට් එකක් පෙනේ, ඔවුන් මට සම්බන්ධ වීම නවත්වන ලෙස මට පවසා ඇත ... නමුත් මම පරිපාලක නොවේ!",
     "Only admins are allowed to add bots to this chat! Get outta here.":
-        "Only admins are allowed to add bots to this chat! Get outta here.",
-    "There are no current locks in *{}*.": "There are no current locks in *{}*.",
-    "These are the locks in *{}*:": "These are the locks in *{}*:",
+        "ඇඩ්මින්ලට විත්‍රයි බොට්ල දාන්න දෙන්නෙ.. පල යන්න.",
+    "There are no current locks in *{}*.": "මොනවත් *{}* එකේ ලොක් කරල නෑ.",
+    "These are the locks in *{}*:": "මේ රෙද්දවල් ටික *{}* එකේ ලොක්ක්:",
     "this chat": "this chat",
 
 #Log channel
@@ -443,57 +426,57 @@ yang membuatmu tertarik.""",
 
 #Users
     "I've seen them in <code>{}</code> chats in total.":
-        "I've seen them in <code>{}</code> chats in total.",
+        "මන් මූව දැක්කා චැට් <code>{}</code> කදි.",
     "I've seen them in... Wow. Are they stalking me? They're in all the same places I am... oh. It's me.":
-        "I've seen them in... Wow. Are they stalking me? They're in all the same places I am... oh. It's me.",
+        "මම ඔවුන්ව දැකලා තියෙනවා ... වාව්. ඔවුන් මට පයින් ගසනවාද? ඔවුන් එකම තැනක මම ... ඔහ්. ඒ මමයි.",
 
 #Msg_deleting
     "Cannot delete all messages. The messages may be too old, I might not have delete rights, or this might not be a supergroup.":
-        "Cannot delete all messages. The messages may be too old, I might not have delete rights, or this might not be a supergroup.",
+        "සියලුම පණිවිඩ මකා දැමිය නොහැක. පණිවිඩ ඉතා පැරණි විය හැකිය, මට මකාදැමීමේ අයිතිවාසිකම් නොතිබිය හැකිය, නැතහොත් මෙය සුපිරි කණ්ඩායමක් නොවිය හැකිය.",
     "Purge complete.": "Purge complete.",
     "Reply to a message to select where to start purging from.":
         "Reply to a message to select where to start purging from.",
-    "Whadya want to delete?": "Whadya want to delete?",
+    "Whadya want to delete?": "මොනෞත්තක්ද ඩිලීට් කරන්න ඕන?",
 
 #Muting
     "You'll need to either give me a username to mute, or reply to someone to be muted.":
-        "You'll need to either give me a username to mute, or reply to someone to be muted.",
-    "I'm not muting myself!": "I'm not muting myself!",
-    "Afraid I can't stop an admin from talking!": "Afraid I can't stop an admin from talking!",
+        "නිශ්ශබ්ද කිරීම සඳහා ඔබට පරිශීලක නාමයක් ලබා දීමට හෝ නිශ්ශබ්ද කිරීමට යමෙකුට පිළිතුරු දීමට ඔබට අවශ්‍ය වනු ඇත.",
+    "I'm not muting myself!": "මම මාවම මියුට් කරගන්නෙ නෑ",
+    "Afraid I can't stop an admin from talking!": "මට පරිපාලකයෙකු කතා කිරීම නතර කළ නොහැක!",
     "You'll need to either give me a username to unmute, or reply to someone to be unmuted.":
-        "You'll need to either give me a username to unmute, or reply to someone to be unmuted.",
-    "This user already has the right to speak in {}.": "This user already has the right to speak in {}.",
-    "Yep, {} can start talking again in {}!": "Yep, {} can start talking again in {}!",
+        "එක්කෝ ඔබට නිශ්ශබ්ද කිරීමට පරිශීලක නාමයක් ලබා දිය යුතුය, නැතහොත් නිශ්ශබ්ද වීමට යමෙකුට පිළිතුරු දෙන්න.",
+    "This user already has the right to speak in {}.": "මේ යකාට දැනටම කතා කරන්න අයිතිය තියනව {}.",
+    "Yep, {} can start talking again in {}!": "ඔයේ!! {} ආපහු කතා කරන්න පටන් ගනින් {}!",
     "This user isn't even in the chat, unmuting them won't make them talk more than they already do!":
-        "This user isn't even in the chat, unmuting them won't make them talk more than they already do!",
-    "I really wish I could mute admins...": "I really wish I could mute admins...",
-    "I'm not gonna MUTE myself, are you crazy?" : "I'm not gonna MUTE myself, are you crazy?",
+        "මෙම පරිශීලකයා කතාබස්වල පවා නොසිටින අතර, ඒවා නිශ්ශබ්ද කිරීමෙන් ඔවුන් දැනටමත් කතා කරනවාට වඩා කතා කිරීමට නොහැකි වනු ඇත!",
+    "I really wish I could mute admins...": "මට හිතෙනව ඇඩ්මින්ල මියුට් කරන්න් තිබ්බනම් කියල!! ඒත් බෑ",
+    "I'm not gonna MUTE myself, are you crazy?" : "මම මාවම මියුට් කරගන්නෙ නෑ.. තොට පිස්සුද???",
     "You haven't specified a time to mute this user for!":
-        "You haven't specified a time to mute this user for!",
+        "මෙම පරිශීලකයා නිශ්ශබ්ද කිරීමට ඔබ කාලයක් නියම කර නැත!",
     "Muted for {} in {}!": "Muted for {} in {}!",
-    "This user is already muted in {}!": "This user is already muted in {}!",
-    "Well damn, I can't mute that user.": "Well damn, I can't mute that user.",
+    "This user is already muted in {}!": "මූ දැනටම මියුටඩ් {}!",
+    "Well damn, I can't mute that user.": "රෙද්ද!! මට ඌව මියුට් කරන්න බෑ",
 
     "You'll need to either give me a username to restrict, or reply to someone to be restricted.":
-        "You'll need to either give me a username to restrict, or reply to someone to be restricted.",
-    "I'm not restricting myself!": "I'm not restricting myself!",
-    "Afraid I can't restrict admins!": "Afraid I can't restrict admins!",
-    "{} is restricted from sending media in {}!": "{} is restricted from sending media in {}!",
-    "This user is already restricted in {}!": "This user is already restricted in {}!",
-    "This user isn't in the {}!": "This user isn't in the {}!",
+        "ඔබට සීමා කිරීමට පරිශීලක නාමයක් ලබා දීමට හෝ සීමා කිරීමට යමෙකුට පිළිතුරු දීමට ඔබට අවශ්‍ය වනු ඇත.",
+    "I'm not restricting myself!": "මම මාවම සීමා කරන්නේ නැහැ!",
+    "Afraid I can't restrict admins!": "මට පරිපාලකයින් සීමා කළ නොහැකියි",
+    "{} is restricted from sending media in {}!": "{} ට මීඩියා එවීම තහනම් {}!තුල",
+    "This user is already restricted in {}!": "මේ හාදයා දැනටම රෙස්ට්‍රික්ටඩ් {}!තුල",
+    "This user isn't in the {}!": "Tමේ යකා {}! තුල නෑ",
 
     "You'll need to either give me a username to unrestrict, or reply to someone to be unrestricted.":
-        "You'll need to either give me a username to unrestrict, or reply to someone to be unrestricted.",
+        "ඔබට එක්කෝ මට බාධාවකින් තොරව පරිශීලක නාමයක් ලබා දිය යුතුය, නැතහොත් සීමාවකින් තොරව යමෙකුට පිළිතුරු දෙන්න.",
     "This user already has the rights to send anything in {}.": 
-        "This user already has the rights to send anything in {}.",
-    "Yep, {} can send media again in {}!": "Yep, {} can send media again in {}!",
+        "ඕනෑම දෙයක් යැවීමට මෙම පරිශීලකයාට දැනටමත් අයිතියක් ඇත {} තුල",
+    "Yep, {} can send media again in {}!": "ඔයේ!! {} ආපහු මීඩියා එවන්න පුලාම් {}!",
     "This user isn't even in the chat, unrestricting them won't make them send anything than they already do!":
-        "This user isn't even in the chat, unrestricting them won't make them send anything than they already do!",
-    "I really wish I could restrict admins...": "I really wish I could restrict admins...",
-    "I'm not gonna RESTRICT myself, are you crazy?": "I'm not gonna RESTRICT myself, are you crazy?",
+        "මෙම පරිශීලකයා කතාබස්වල පවා නොසිටින අතර, ඔවුන්ව සීමා කිරීම මඟින් ඔවුන් දැනටමත් කර ඇති දේට වඩා කිසිවක් යැවීමට නොහැකි වනු ඇත!",
+    "I really wish I could restrict admins...": "මට ඇඩ්මින්ල රෙස්ට්‍රික්ට් කරන්න බෑ",
+    "I'm not gonna RESTRICT myself, are you crazy?": "මම මාවම රෙස්ට්‍රික්ට් කරගන්නෙ නෑ.. පිස්සුවද යකෝ තොපිට",
     "You haven't specified a time to restrict this user for!": 
-        "You haven't specified a time to restrict this user for!",
-    "Well damn, I can't restrict that user.": "Well damn, I can't restrict that user.",
+        "මෙම පරිශීලකයා සීමා කිරීමට ඔබ කාලයක් නියම කර නැත!",
+    "Well damn, I can't restrict that user.": "හෙනම ගහපන් මට ඌට අරින්න බෑ.",
     "{} is muted in {}!": "{} is muted in {}!",
     "Restricted from sending media for {} in {}!": "Restricted from sending media for {} in {}!",
     "Restricted for {} in {}!": "Restricted for {} in {}!",
@@ -532,334 +515,38 @@ yang membuatmu tertarik.""",
         "Warnings": "Warnings",
         "Welcomes/Goodbyes": "Welcomes/Goodbyes",
 
+
 #Some main stuff
 "Ini adalah bantuan untuk modul *{}*:\n{}": "Ini adalah bantuan untuk modul *{}*:\n{}",
 "Back": "Back",
-"send-help": """Hai disana! Nama saya {}.
-Saya bot manajemen grup modular dengan beberapa tambahan menyenangkan! Lihatlah gagasan berikut untuk beberapa hal yang dapat saya bantu.
+"send-help": """ආයුබෝවන්! මගේ නම {}.
+සිංහල භාශාවෙන් රන් වෙන එක්ම Group Admin Bot ට ඔයාව පිලිගන්නවා!!
 
 Perintah tersedia:
- - /start: Perintah keren untuk memeriksa apakah bot masih hidup atau tidak
- - /help: Bantuan.
- - /help <nama modul>: Bantuan tentang modul.
- - /donate: informasi tentang cara menyumbang!
- - /lang: mengubah bahasa bot
+ - /start: බොට්ව පටන් ගන්න
+ - /help: උදව්
+ - /help <Module name>: තෝරා ගත් මොඩියුලය පිලිබඳ විස්තර PM එකකින් ලබා දේ.
+ - /donate: ආධාරයක් කිරීමට
+ - /lang: භාශාව වෙනස් කිරීමට
  - /settings:
-   -di PM: akan mengirimkan setelan untuk semua modul yang didukung.
-   -dalam grup: akan mengarahkan Kamu ke pm, dengan semua aturan.
+   -in PM: සහාය දක්වන සියලුම මොඩියුල සඳහා සැකසුම් ඔබ වෙත ලබාදේ.
+   -in a group: සියලුම Chat settings ඔබට pm එකකින් redirect කරයි.
    
 {}
    """,
 
+"\nSemua perintah dapat digunakan dengan `/` atau `!`.\n": "\nසියලුම Commands `/` හෝ `!` සමග බාවිත කල හැක.\n",
 
-"\nSemua perintah dapat digunakan dengan `/` atau `!`.\n": "\nSemua perintah dapat digunakan dengan `/` atau `!`.\n",
 
 #Module helps
-"Admin_help": """- /adminlist | /admin: daftar admin dalam obrolan
-
-*Admin only:*
- - /pin: diam-diam pin pesan yang dibalas - tambahkan 'loud' atau 'notify' untuk memberi notif kepada pengguna.
- - /unpin: membatalkan pemasangan pesan yang saat ini disematkan
- - /invitelink: mendapat tautan undangan
- - /promote: mempromosikan yang dibalas pengguna
- - /demote: menurunkan yang dibalas pengguna""",
-
-"AFK_help": """ - /afk <reason>: tandai diri Kamu sebagai AFK.
- - brb <reason>: sama dengan perintah afk - tetapi bukan perintah.
-
-Ketika ditandai sebagai AFK, sebutan apa pun akan dijawab dengan pesan untuk mengatakan bahwa Kamu tidak tersedia! """,
-
-"AntiFlood_help": """kau tahu bagaimana kadang-kadang, orang-orang yang bergabung, mengirim pesan 100 dan merusak obrolan? Dengan antiflood, itu tidak akan terjadi lagi!
-
-Antiflood memungkinkan Kamu untuk mengambil tindakan pada pengguna yang mengirim lebih x pesan berturut-turut. Tindakan: ban/tendangan/mute/tban/tmute
-
-Perintah yang tersedia adalah:
- - /flood: mendapatkan pengaturan antiflood saat ini.
- -/setflood <number/off>: menetapkan jumlah pesan di mana untuk mengambil tindakan pada pengguna.""",
-
-"Locks_help": """Apakah stiker mengganggu Kamu? atau ingin menghindari orang-orang yang berbagi link? atau gambar? Kamu berada di tempat yang tepat!
-
-Modul kunci memungkinkan Kamu untuk mengunci berjarak beberapa item yang umum di dunia telegram; bot akan secara otomatis menghapus mereka!
-
-Perintah yang tersedia adalah:
- - / lock <item(s)>: mengunci penggunaan "item". Sekarang, hanya admin akan mampu menggunakan jenis ini!
- - /unlock <item(s)>: membuka "item". Setiap orang dapat menggunakannya lagi.
- - /locks: Daftar status kunci dalam obrolan.
- -/locktypes: menampilkan daftar semua hal yang dapat dikunci. (silahkan lihat ini!)
-
-eg: kunci stiker dengan:
-/lock sticker""",
-
-"Command disabling_help": """tidak semua menginginkan setiap fitur yang ditawarkan. Beberapa perintah kiri terbaik tidak terpakai; untuk menghindari spam dan penyalahgunaan.
-
-Ini memungkinkan Kamu untuk menonaktifkan beberapa digunakan perintah, sehingga tidak ada dapat menggunakan mereka. Ini juga akan memungkinkan Kamu untuk autodelete mereka, menghentikan orang-orang dari
-
-Perintah yang tersedia adalah:
- - /disable <commandname>: menghentikan pengguna dari menggunakan perintah "commandname" dalam kelompok ini.
- - /enable <commandname>: memungkinkan pengguna untuk menggunakan perintah "commandname" dalam kelompok ini lagi.
- -/listcmds: daftar semua perintah tersedia.
- - /disabled: Daftar perintah Penyandang Cacat di chat ini.
-
-Note:
-Saat menonaktifkan perintah, perintah hanya mendapat dinonaktifkan untuk bebas-admin. Semua admins masih dapat menggunakan perintah-perintah tersebut.
-Perintah Penyandang Cacat masih dapat diakses melalui /connect fitur. Jika Kamu akan tertarik untuk melihat ini dinonaktifkan juga, biarkan aku tahu dalam obrolan dukungan.""", 
-
-"Filters_help": """Membuat obrolan lebih ramai dengan filter; Bot akan membalas dengan kata-kata tertentu!
-Filter tidak peka huruf besar-kecil; setiap kali seseorang mengatakan kata-kata pemicu Kamu, {} akan membalas sesuatu yang lain! dapat digunakan untuk membuat perintah Kamu sendiri, jika diinginkan.
- - /filter: daftarkan semua filter aktif dalam obrolan ini.
-*Admin only:*
- - /filter <keyword> <reply message>: Setiap kali seseorang mengatakan "kata", bot akan membalas dengan "kalimat". Untuk beberapa filter kata, kutip kata pertama.
- - /stop <filter keyword>: hentikan filter itu.
- 
- Contoh cara mengatur filter akan melalui:
-`/filter halo Halo! Bagaimana kabarmu?`
-Filter multi kata dapat diatur melalui:
-`/filter "halo teman" Halo kembali! Lama tidak bertemu!`
-Jika Kamu ingin menyimpan gambar, gif, atau stiker, atau data lain, lakukan hal berikut:
-`/filter kata saat menjawab stiker atau data apa pun yang Kamu inginkan. Sekarang, setiap kali seseorang menyebut "kata", stiker itu akan dikirim sebagai balasan.`
-Sekarang, siapa pun yang mengatakan "halo" akan dijawab dengan "Halo di sana! Apa kabar?".""",
-
-"Bans_help": """Beberapa orang perlu dilarang di depan umum; spammer, gangguan, atau hanya troll.
-
-Modul ini memungkinkan Kamu untuk melakukannya dengan mudah, dengan memaparkan beberapa tindakan umum, sehingga semua orang akan melihat!
-
-Perintah yang tersedia adalah:
- - /ban: melarang pengguna dari obrolan Kamu.
- - /banme: melarang diri sendiri
- - /tban: sementara melarang pengguna dari obrolan Kamu. setel waktu menggunakan int <d/h/m> (hari jam menit)
- - /unban: batalkan pengguna dari obrolan Kamu.
- - /sban: diam-diam melarang pengguna. (via gagang, atau balas)
- - /mute: membisukan pengguna dalam obrolan Kamu.
- - /tmute: untuk sementara menonaktifkan pengguna di obrolan Kamu. setel waktu menggunakan int <d/h/m> (hari jam menit)
- - /unmute: unmutes pengguna dari chatting.
- - /kick: tendangan pengguna dari chatting.
- -/kickme: pengguna yang menggunakan ini, menendang dirisendiri!
-
- Contoh sementara mumbungkam seseorang:
-/tmute @username 2h; Hal ini mematikan pengguna selama 2 jam.""",
-
-"Connections_help": """kadang-kadang, Kamu hanya ingin menambahkan beberapa catatan dan filter ke grup obrolan, tetapi Kamu tidak ingin semua orang untuk melihat; Ini adalah di mana sambungan datang...
-
-Hal ini memungkinkan Kamu untuk menghubungkan ke database chatting, dan menambahkan sesuatu untuk itu tanpa chat mengetahui tentang hal itu! Untuk alasan yang jelas, Kamu perlu untuk menjadi seorang admin untuk menambahkan hal-hal; tapi setiap anggota dapat melihat data Kamu. (pengguna dilarang/menendang tidak bisa!)
-
-Tindakan tersedia dengan kelompok-kelompok yang terhubung:
- • Lihat dan edit catatan
- • Lihat dan edit filter
- • Lihat dan edit blacklist
- • Mempromosikan/demote pengguna
- • Lihat adminlist, lihat invitelink
- • Menonaktifkan/mengaktifkan perintah chat
- • Mute/bersuara pengguna di chat
- • Membatasi/unrestrict pengguna di chat
- • Lagi di masa depan!
-
- -/connection <chatid>: terhubung ke remote chat
- - /disconnect: Lepaskan dari chat
- -/allowconnect on/yes/off/no: memungkinkan menghubungkan pengguna ke grup
-
- Kamu dapat mengambil id chatting dengan menggunakan perintah /id dalam obrolan Kamu. Jangan terkejut jika id ada negatif; Semua kelompok yang super memiliki Id negatif.""",
-
-"Log Channels_help": """*Admin only:*
-- /logchannel: dapatkan info saluran log
-- /setlog: atur saluran log.
-- /unsetlog: hapus saluran log.
-
-Pengaturan saluran log dilakukan dengan:
-- menambahkan bot ke saluran yang diinginkan (sebagai admin!)
-- mengirim /setlog di saluran
-- meneruskan /setlog ke grup
-""", 
-
-"Reporting_help": """ - /report <reason>: balas pesan untuk melaporkannya ke admin.
- - @admin: balas pesan untuk melaporkannya ke admin.
-CATATAN: tidak satu pun dari ini akan dipicu jika digunakan oleh admin
-
-*Admin only:*
- - /reports <on/off>: mengubah pengaturan laporan, atau melihat status saat ini.
-   - Jika dilakukan pada pm, matikan status Kamu.
-   - Jika dalam obrolan, matikan status obrolan itu.""",
-
-"Notes_help": """Save data for future users with notes!
-
-Catatan bagus untuk menyimpan informasi acak; nomor telepon, gif yang bagus, gambar lucu - apa saja!
-
-Perintah yang tersedia adalah:
- - /save <word> <sentence>: Simpan kalimat itu ke catatan yang disebut "word". Membalas pesan akan menyimpan pesan itu. Bahkan bekerja di media!
- - /get <word>: dapatkan catatan terdaftar untuk kata itu.
- - #<word>: sama dengan /get word
- - /clear <word>: hapus catatan yang disebut "word"
- - /notes: Daftar semua catatan dalam obrolan saat ini
- - /saved: sama dengan /notes
-
-Contoh cara menyimpan catatan adalah melalui:
-/save data Ini beberapa data!
-
-Sekarang, siapa pun yang menggunakan "/get data", atau "#data" akan dijawab dengan "Ini adalah beberapa data!".
-
-Jika Kamu ingin menyimpan gambar, gif, atau stiker, atau data lain, lakukan hal berikut:
-/save word saat membalas stiker atau data apa pun yang Kamu inginkan. Sekarang, catatan di "#word" berisi stiker yang akan dikirim sebagai balasan.
-
-Kiat: untuk mengambil catatan tanpa memformat, gunakan /get <notename> noformat
-Ini akan mengambil catatan dan mengirimkannya tanpa memformatnya; memberi Kamu markdown mentah, memungkinkan Kamu untuk mengedit dengan mudah""",
-
-"Muting & Restricting_help": """Beberapa orang perlu dilarang di depan umum; spammer, gangguan, atau hanya troll.
-
-Modul ini memungkinkan Kamu untuk melakukannya dengan mudah, dengan memaparkan beberapa tindakan umum, sehingga semua orang akan melihat!
-
-Perintah yang tersedia adalah:
- - /ban: melarang pengguna dari obrolan Kamu.
- - /banme: melarang diri sendiri
- - /tban: sementara melarang pengguna dari obrolan Kamu. setel waktu menggunakan int <d/h/m> (hari jam menit)
- - /unban: batalkan pengguna dari obrolan Kamu.
- - /sban: diam-diam melarang pengguna. (via gagang, atau balas)
- - /mute: membisukan pengguna dalam obrolan Kamu.
- - /tmute: untuk sementara menonaktifkan pengguna di obrolan Kamu. setel waktu menggunakan int <d/h/m> (hari jam menit)
- - /unmute: unmutes pengguna dari chatting.
- - /kick: tendangan pengguna dari chatting.
- -/kickme: pengguna yang menggunakan ini, menendang dirisendiri!
-
- Contoh sementara mumbungkam seseorang:
-/tmute @username 2h; Hal ini mematikan pengguna selama 2 jam.""",
-
-"Misc_help": """ - /id: get the current group id. Jika digunakan dengan membalas pesan, dapatkan id pengguna itu.
- - /runs: balas string acak dari berbagai balasan.
- - /insult: balas string acak dari berbagai balasan.
- - /slap: menampar pengguna, atau ditampar jika bukan balasan.
- - /info: dapatkan informasi tentang pengguna.
- - /gdpr: menghapus informasi Kamu dari basis data bot. Obrolan pribadi saja.
- - /stickerid: balas stiker ke saya untuk memberi tahu Kamu file ID-nya.
- - /getsticker: balas stiker ke saya untuk mengunggah file PNG mentahnya.
- - /markdownhelp: ringkasan singkat tentang bagaimana markdown berfungsi di telegram - hanya dapat dipanggil dalam obrolan pribadi.
-
- - /git: Mendapatkan info tentang pengguna atau organisasi GitHub.
- - /repo: Mendapatkan daftar repositori pengguna atau organisasi GitHub (Terbatas pada 40)
- - /lyrics: Temukan lirik lagu favorit Kamu!
- - /paste: Buat tempel atau url singkat menggunakan [dogbin](https://del.dog)
- - /getpaste: Dapatkan konten tempel atau url singkat dari [dogbin](https://del.dog)
- - /pastestats: Dapatkan statistik tempel atau url singkat dari [dogbin](https://del.dog)
- - /ud: Ketikkan kata atau ungkapan yang ingin Kamu cari. Misalnya /ud Gay
- - /removebotkeyboard: Punya keyboard bot jahat tersangkut di grup Kamu?
- - /exec <language> <code> [/stdin <stdin>]: Jalankan kode dalam bahasa yang ditentukan. Kirim perintah kosong untuk mendapatkan bahasa yang didukung.""",
-
-"Bios and Abouts_help": """ - /setbio <text>: saat menjawab, akan menambah bio pengguna lain
- - /bio: akan mendapatkan bio Kamu atau pengguna lain. Ini tidak dapat diatur sendiri.
- - /setme <text>: memperbarui info kamu
- - /me: akan mendapatkan info Kamu atau pengguna lain""",
-
-"Rules_help": """ - /rules: dapatkan aturan untuk obrolan ini.
-
-*Admin only:*
- - /setrules <rules>: tetapkan aturan untuk obrolan ini.
- - /clearrules: hapus aturan untuk obrolan ini.""",
-
-"Warnings_help": """ - /warns <userhandle>: dapatkan nomor pengguna, dan alasan, peringatan.
- - /warnlist: daftar semua filter peringatan saat ini
-
-*Admin only:*
- - /warn <userhandle>: peringati seseorang. Setelah 3 peringatan, pengguna akan diblokir dari grup. Bisa juga digunakan sebagai balasan.
- - /resetwarn <userhandle>: atur ulang peringatan untuk pengguna. Bisa juga digunakan sebagai balasan.
- - /addwarn <keyword> <reply message>: atur filter peringatan pada kata kunci tertentu. Jika Kamu ingin kata kunci Kamu \
-menjadi kalimat, sertakan dengan tanda kutip, seperti: `/addwarn "sangat marah" Ini adalah pengguna yang marah`.
- - /nowarn <keyword>: hentikan filter peringatan
- - /warnlimit <num>: mengatur batas peringatan
- - /strongwarn <on/yes/off/no>: Jika diatur ke aktif, melebihi batas peringatan akan menghasilkan larangan. Lain, hanya akan menendang.
- - /rmwarn <userhandle>: menghapus peringatan terbaru untuk pengguna. Bisa juga digunakan sebagai balasan.
- - /unwarn <userhandle>: sama dengan /rmwarn""",
-
-"Welcomes/Goodbyes_help": """
-Beri anggota Kamu sambutan hangat dengan modul salam! Atau selamat tinggal yang menyedihkan... Tergantung!
-
-Perintah yang tersedia adalah:
- - /welcome <on/off/yes/no>: mengaktifkan / menonaktifkan pesan sambutan. Jika tidak ada opsi yang diberikan, mengembalikan pesan selamat datang saat ini dan pengaturan selamat datang.
- - /goodbye <on/off/yes/no>: mengaktifkan / menonaktifkan pesan selamat tinggal. Jika tidak ada opsi yang diberikan, mengembalikan pesan selamat tinggal saat ini dan pengaturan selamat tinggal.
- - /setwelcome <message>: set pesan sambutan baru Kamu! Markdown dan tombol didukung, serta tambalan.
- - /resetwelcome: mengatur ulang pesan sambutan Kamu ke default; menghapus semua perubahan yang telah Kamu buat.
- - /setgoodbye <message>: set pesan selamat tinggal Kamu! Markdown dan tombol didukung, serta tambalan.
- - /resetgoodbye: mengatur ulang pesan selamat tinggal Kamu ke default; menghapus semua perubahan yang telah Kamu buat.
- - /cleanwelcome <on/off/yes/no>: menghapus pesan sambutan lama; ketika orang baru bergabung, pesan lama dihapus.
- - /cleanservice <on/off/yes/no>: menghapus semua pesan layanan; itu adalah "x bergabung dengan grup" yang Kamu lihat ketika orang bergabung.
- - /welcomesecurity <off/soft/hard>: izin pengguna lunak untuk mengirim file media selama 24 jam, izin pengguna terbatas untuk mengirim saya $
-
-
-Fillings:
-Seperti disebutkan, Kamu dapat menggunakan tag tertentu untuk mengisi pesan selamat datang Kamu dengan pengguna atau info obrolan; ada:
-{first}: Nama depan pengguna.
-{last}: Nama belakang pengguna.
-{fullname}: Nama lengkap.
-{username}: Nama pengguna dari pengguna; jika tidak ada yang tersedia, sebutkan pengguna.
-{mention}: Menyebutkan pengguna, menggunakan nama depan mereka.
-{id}: Id pengguna.
-{chatname}: Nama chat.
-
-Contoh cara menggunakan tambalan adalah mengatur sambutan Kamu, melalui:
-/setwelcome Hello {first}! Selamat datanf di {chatname}.
-
-Kamu dapat mengaktifkan / menonaktifkan pesan sambutan seperti:
-/welcome off
-
-Jika Kamu ingin menyimpan gambar, gif, atau stiker, atau data lain, lakukan hal berikut:
-/setwelcome saat membalas stiker atau data apa pun yang Kamu inginkan. Data ini sekarang akan dikirim untuk menyambut pengguna baru.
-
-Tip: gunakan /welcome noformat untuk mengambil pesan selamat datang yang belum diformat.
-Ini akan mengambil pesan selamat datang dan mengirimkannya tanpa memformatnya; memberi Kamu markdown mentah, memungkinkan Kamu untuk mengedit dengan mudah.
-Ini juga bekerja dengan /goodbye.""",
-
-"Word Blacklists_help":"""Kamu dapat mengatur filter daftar hitam untuk mengambil tindakan otomatis pada orang-orang ketika mereka mengatakan hal-hal tertentu. Ini dilakukan dengan menggunakan:
- - /addblacklist <blacklist trigger> <blacklist reason>: daftar hitam pemicunya. Kamu dapat mengatur kalimat dengan menaruh tanda kutip di sekitar alasannya.
- - /unblacklist <blacklist trigger>: berhenti daftar hitam pemicu daftar hitam tertentu.
- - /rmblacklist <blacklist trigger>: sama dengan /unblacklist
- - /blacklist: daftar semua filter daftar hitam aktif
-
-/addblacklist "the admins suck" Respect your admins!
-Ini akan menghapus pesan yang terdapat kata 'the admins suck'.
-Jika Kamu telah mengaktifkan mode daftar hitam alternatif, itu akan memperingatkan, mencekal, menendang, atau membisukan pengguna dengan pesan yang menyebutkan alasannya.
-
-Top tip:
-Daftar hitam memungkinkan Kamu menggunakan beberapa pengubah untuk mencocokkan karakter "unknown". Misalnya, Kamu dapat menggunakan? karakter untuk mencocokkan satu kemunculan $
-Kamu juga dapat menggunakan * pengubah, yang sesuai dengan sejumlah karakter apapun. Jika Kamu ingin daftar hitam Url, ini akan memungkinkan Kamu untuk menyesuaikan secara penuh $
-Sebagai contoh, berikut akan melarang bit.ly link:
-/addblacklist "bit.ly/*" kita tidak menyukai layanan pemendek!
-Jika Kamu ingin hanya cocok bit.ly/ link diikuti oleh tiga karakter, Kamu dapat menggunakan:
-/addblacklist "bit.ly/???" Kita tidak menyukai layanan pemendek!
-Ini akan cocok bit.ly/abc, tetapi tidak bit.ly/abcd.""",
-
-"Purges_help": """perlu menghapus banyak pesan? Itulah mengapa purge ada!
-
-Perintah yang tersedia adalah:
- - /purge: menghapus semua pesan dari pesan Kamu menjawab, untuk pesan yang sekarang.
- - /purge X: menghapus X pesan setelah pesan Kamu membalas (termasuk menjawab pesan)
- -/del: menghapus pesan yang Kamu jawab.
-""",
-
-
-"Federations_help": """Ah, manajemen grup. Hal ini semua menyenangkan dan permainan, sampai Kamu mulai mendapatkan spammer di, dan Kamu perlu untuk melarang mereka. Maka Kamu perlu untuk mulai melarang lebih dan lebih, dan itu akan menyakitkan.
-Tapi kemudian Kamu memiliki beberapa kelompok, dan Kamu tidak ingin spammer ini dalam salah satu grup Kamu - bagaimana Kamu dapat menangani? Apakah Kamu memiliki melarang mereka secara manual, di semua kelompok Kamu?
-Terinspirasi oleh [Rose bot](t.me/MissRose_bot)
-Jangan lagi! Dengan Federasi, Kamu dapat membuat ban di tumpang-tindih satu obrolan untuk semua obrolan lain.
-Kamu bahkan dapat menunjuk admin federasi, sehingga admin tepercaya Kamu dapat melarang semua obrolan yang ingin Kamu lindungi.
-Commands:
- - /newfed <fedname>: membuat federasi baru dengan nama yang diberikan. Pengguna hanya diperbolehkan memiliki satu federasi. Metode ini juga dapat digunakan untuk mengubah nama federasi. (max 64 characters)
- - /delfed: menghapus federasi Kamu, dan informasi apa pun yang berkaitan dengannya. Tidak akan membatalkan pencekalan pengguna yang diblokir.
- - /fedinfo <FedID>: informasi tentang federasi yang ditentukan.
- - /joinfed <FedID>: bergabung dengan obrolan saat ini ke federasi. Hanya pemilik obrolan yang dapat melakukan ini. Setiap obrolan hanya bisa dalam satu federasi.
- - /leavefed <FedID>: meninggalkan federasi yang diberikan. Hanya pemilik obrolan yang dapat melakukan ini.
- - /fpromote <user>: mempromosikan pengguna untuk memberi makan admin. Pemilik Fed saja.
- - /fdemote <user>: menurunkan pengguna dari admin yang diumpankan ke pengguna normal. Hanya pemilik Fed.
- - /fban <user>: melarang pengguna dari semua federasi tempat obrolan ini berlangsung, dan eksekutor memiliki kendali atas.
- - /unfban <user>: batalkan pengguna dari semua federasi tempat obrolan ini berlangsung, dan bahwa pelaksana memiliki kendali atas.
- - /setfrules: Tetapkan aturan federasi
- - /frules: Tampilkan aturan federasi
- - /chatfed: Tampilkan federasi tempat obrolan
- - /fedadmins: Tampilkan admin federasi""",
-
 
 #GDPR
-"send-gdpr": """Data pribadi Kamu telah dihapus.\n\nPerhatikan bahwa ini tidak akan membatalkan blokir \
-kamu dari obrolan apa pun, karena itu adalah data telegram, bukan data Bot.
-Flooding, warns, dan gbans tetap tersimpan, seperti pada \
+"send-gdpr": """Your personal data has been deleted.\n\nNote that this will not unban \
+you from any chats, as that is telegram data, not YanaBot data.
+Flooding, warns, and gbans are also preserved, as of \
 [this](https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-to-erasure/), "
-yang dengan jelas menyatakan bahwa hak untuk dihapus tidak berlaku \
-\"untuk pelaksanaan tugas yang dilakukan untuk kepentingan umum\", seperti halnya \
-kasus untuk potongan data tersebut."""
+which clearly states that the right to erasure does not apply \
+\"for the performance of a task carried out in the public interest\", as is \
+the case for the aforementioned pieces of data."""
 
 }
