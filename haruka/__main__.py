@@ -29,16 +29,16 @@ I'm group manager 🃏
 Activate Anti-spam protection in your BM by this command : 
 /antispam on 
 
-Made from the source code of [Gimsara 🇱🇰](t.me/S1_TOURBO)
-
-Special thanks to [this person](t.me/MrRaviya) for helping me.
+Made from the source code of [GRB](t.mmee/grb_network)
+me
+Special thanks to [this person](t.me/Black_heart_hacker_xon) for helping me.
 
 Deploy a bot like me 
 
 
 Click /help or Help button below to find out more about how to use me to my full potential.
 
- Add me to a group by clicking [here](http://t.me/tg_GroupManagerBot?startgroup=true).
+ Add me to a group by clicking [here](http://t.me/groupbooster_robot?startgroup=true).
 """
 
 
